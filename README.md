@@ -1,95 +1,82 @@
-# ¡Hola! Soy Byron Pineda (ByronKinal) 👋
-### 🚀 Desarrollador Full Stack & Mobile | Estudiante del Centro Educativo Técnico Kinal
-
-¡Bienvenido a mi perfil de GitHub! Soy un desarrollador apasionado por crear soluciones tecnológicas robustas, eficientes y modernas. Actualmente me encuentro cursando mis estudios en el **Centro Educativo Técnico Kinal**, donde he perfeccionado mis habilidades en el desarrollo de software tanto en el lado del servidor como en el cliente y en plataformas móviles.
-
-Me encanta diseñar arquitecturas limpias, explorar la integración de múltiples bases de datos, implementar microservicios y trabajar con tecnologías de vanguardia como **React 19**, **Vite 8**, **Tailwind CSS v4**, **Node.js (Express 5)**, **Java 21 / Spring Boot 3.5** y **React Native**.
-
----
-
-## 🛠️ Tecnologías y Herramientas
-
-### **Frontend & Mobile**
-![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite_8-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Zustand](https://img.shields.io/badge/Zustand-443E38?style=for-the-badge&logoColor=white)
-
-### **Backend & APIs**
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express_5-000000?style=for-the-badge&logo=express&logoColor=white)
-![Java 21](https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot_3.5-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=json-web-tokens&logoColor=white)
-
-### **Bases de Datos & Almacenamiento**
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
-![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)
-
----
-
-## 🏛️ Arquitecturas y Patrones de Diseño
-Para garantizar la escalabilidad, mantenibilidad y el bajo acoplamiento en mis aplicaciones, aplico metodologías y patrones estandarizados en la industria:
-*   **Clean Architecture (Arquitectura Limpia):** Separación rigurosa de responsabilidades (Presentation, Domain, Data) aplicada principalmente en mis aplicaciones móviles con **React Native**.
-*   **Microservicios:** Arquitecturas distribuidas con comunicación inter-servicio mediante endpoints internos y clientes REST dedicados.
-*   **MVC & MVVM:** Estructuración de aplicaciones web y de escritorio separando la interfaz de usuario, los controladores/viewmodels y los modelos de datos.
-*   **Seguridad Avanzada:** Autenticación robusta basada en JWT, rotación de tokens (refresh tokens), control de acceso basado en roles (RBAC), encriptación con Argon2 y Bcrypt, limitadores de peticiones (rate limiting) y configuraciones de seguridad HTTP (Helmet).
-
----
-
-## 📁 Proyectos Destacados
-
-### 🩸 **BloodLink** — *Sistema de Gestión de Donación de Sangre*
-Una solución tecnológica integral para optimizar y dinamizar los procesos de donación de sangre, estructurada bajo una arquitectura moderna de microservicios:
-*   **Arquitectura:** Microservicios y Clean Architecture.
-*   **Backend:** División híbrida de servicios:
-    *   **MongoDB (Mongoose):** Gestiona perfiles, citas, triaje, auditorías, reportes de stock, IoT y un asistente inteligente de donación por IA.
-    *   **PostgreSQL (Sequelize):** Controla el sistema de autenticación centralizado (auth), usuarios, y un motor de gamificación mediante incentivos y canje de recompensas.
-*   **Asistente IA:** Integración de Inteligencia Artificial (OpenAI / OpenRouter API) para soporte y orientación pre-donación.
-*   **IoT & Monitoreo:** Simulación de telemetría IoT para registrar la temperatura e historial de bolsas de sangre en tiempo real.
-*   **Frontend Móvil:** App moderna desarrollada en **React Native (Expo)** para los donantes.
-
-### 🏆 **Ktournaments** — *Sistema de Gestión de Torneos*
-Plataforma robusta diseñada para organizar y administrar torneos deportivos de forma automatizada y eficiente.
-*   **Tecnologías:** Java 21 & Spring Boot 3.5.
-*   **Bases de Datos:** MySQL con Spring Data JPA.
-*   **Seguridad:** Spring Security con flujo de autenticación local y soporte OAuth2 (Google/GitHub), validaciones estrictas y protección de endpoints.
-*   **Interactividad:** WebSockets para actualización de marcadores y posiciones en tiempo real.
-*   **Interfaz de Usuario Híbrida:** 
-    *   **JoinFaces (PrimeFaces + JSF):** Panel administrativo web elegante y reactivo.
-    *   **FlatLaf (Swing Desktop):** Cliente de escritorio nativo con diseño plano y moderno para visualización rápida de torneos.
-*   **Herramientas adicionales:** Lombok, MapStruct (para mapeo DTO óptimo) y Springdoc OpenAPI (Swagger).
-
-### 🖥️ **Client-Admin & Server-Admin** — *Panel Administrativo Completo*
-Un sistema administrativo integral que conecta un cliente altamente interactivo y veloz con un servidor modular de última generación.
-*   **Server-Admin:** API REST en **Express 5** y **Node.js** con conexión a **MongoDB** mediante Mongoose. Cuenta con auditorías, validadores de datos, protección HTTP (Helmet), y almacenamiento de imágenes integrado con **Multer** y **Cloudinary**.
-*   **Client-Admin:** Panel web desarrollado con **React 19**, **Vite 8** y **Tailwind CSS v4** con soporte nativo de compilación rápida. Manejo del estado global mediante **Zustand**, rutas optimizadas con **React Router 7**, formularios reactivos con **React Hook Form** y componentes visuales estilizados con **Material Tailwind**.
-
-### 💬 **ProyectoGestorOpiniones** — *API REST de Autenticación y Opiniones*
-Una API robusta enfocada en la seguridad del usuario y el manejo de opiniones/reseñas en línea.
-*   **Backend:** Node.js y Express 5.
-*   **Base de Datos:** PostgreSQL con **Sequelize** y soporte para **Mongoose**.
-*   **Seguridad:** Hashing seguro con **Argon2**, protección contra ataques de fuerza bruta mediante `express-rate-limit`, rotación de JWT y envío automático de correos con **Nodemailer**.
-
----
-
-## 📈 Estadísticas de GitHub
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Outfit&size=24&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=%C2%A1Hola!+Soy+Byron+Steve+Pineda+Luna+%F0%9F%90%B1%E2%80%8D%F0%9F%92%BB;T%C3%A9cnico+en+Inform%C3%A1tica+%26+Full+Stack+Dev;Apasionado+por+React%2C+Node.js+y+WebXR+3D" alt="Typing SVG" />
+</h1>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ByronKinal&show_icons=true&theme=tokyonight&count_private=true" alt="Estadísticas de GitHub de Byron" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ByronKinal&layout=compact&theme=tokyonight" alt="Lenguajes más usados por Byron" width="48%" />
+  <em>"Si puedes imaginarlo, puedes programarlo" 🚀</em><br>
+  <small>En memoria de Alejandro Taboada Sánchez (1997 - 2019) 🎗️</small>
+</p>
+
+<p align="center">
+  <a href="https://portafolio-3myd.onrender.com/" target="_blank">🌐 <b>Portafolio Web</b></a> • 
+  <a href="https://www.linkedin.com/in/byron-steve-pineda-luna-481508358/" target="_blank">💼 <b>LinkedIn</b></a> • 
+  <a href="mailto:byronstevepinedaluna@gmail.com">✉️ <b>Correo</b></a>
 </p>
 
 ---
 
-## 📫 Contáctame
-*   **Correo Institucional:** [bpineda-2024427@kinal.edu.gt](mailto:bpineda-2024427@kinal.edu.gt)
-*   **GitHub:** [@ByronKinal](https://github.com/ByronKinal)
+### 👨💻 Sobre Mí
+
+- 🎓 **Formación:** Técnico en Informática graduado del Centro Educativo Técnico Laboral **KINAL**.
+- 💻 **Especialidad:** Desarrollo Full Stack (React, Node.js, Express, MongoDB, PostgreSQL) y experiencias inmersivas 3D en **WebXR** (Three.js & A-Frame).
+- 🚀 **Enfoque:** Creación de aplicaciones escalables, seguras y con diseño moderno enfocadas en la mejor experiencia de usuario.
+- 📍 **Ubicación:** Guatemala 🇬🇹
 
 ---
-*«La tecnología es mejor cuando une a las personas y resuelve problemas reales.»* 💻✨
+
+### 🛠️ Tecnologías & Herramientas
+
+#### **Frontend & Móvil**
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
+
+#### **Backend & Bases de Datos**
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)
+
+#### **DevOps & Herramientas**
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![CCNA](https://img.shields.io/badge/Cisco_CCNA-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
+
+---
+
+### 🔥 Proyectos Destacados
+
+| Proyecto | Descripción | Tecnologías | Enlaces |
+| :--- | :--- | :--- | :--- |
+| **🥽 KinalVR** | Recorrido virtual 3D inmersivo de las instalaciones de Kinal. | React, WebXR, Three.js, A-Frame | [Live App](https://kinalvr-client.onrender.com) \| [Repo Client](https://github.com/KinalVR-Expo2026/KinalVR-Client) |
+| **🍽️ GastroFlow** | Sistema integral de gestión para restaurantes (pedidos, mesas, facturación). | React, Node.js, MongoDB, PostgreSQL | [Live App](https://gastroflow-frontend.onrender.com/) \| [Repo](https://github.com/csican-2024328/GastroFlow) |
+| **💳 NexusBank** | Simulador bancario con autenticación JWT y Docker. | React, Node.js, JWT, Docker | [Live App](https://sistema-bancario-nexusbank.onrender.com/) \| [Repo](https://github.com/breyes396/Sistema-bancario-NexusBank) |
+| **🩸 BloodLink** | Plataforma de gestión médica e inventario para donaciones de sangre. | Node.js, Express, MongoDB, PostgreSQL | [Live App](https://bloodlink-web-pgq0.onrender.com/) \| [Repo](https://github.com/ByronKinal/BloodLink) |
+
+---
+
+### 📊 Mis Estadísticas de GitHub
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ByronKinal&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="ByronKinal GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ByronKinal&layout=compact&theme=tokyonight&hide_border=true&hide=html,css" alt="Top Languages" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ByronKinal&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="98%" />
+</p>
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=ByronKinal&label=Visitas%20al%20Perfil&color=6366F1&style=flat-square" alt="Visitor Count" />
+</p>
