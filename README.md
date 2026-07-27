@@ -19,7 +19,7 @@
 ---
 
 
-### 👨💻 Sobre Mí
+### 👨‍💻 Sobre Mí
 
 
 - 🎓 **Formación:** Técnico en Informática graduado del Centro Educativo Técnico Laboral **KINAL**.
@@ -65,15 +65,17 @@
 ### 📊 Mis Estadísticas de GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ByronKinal&show_icons=true&theme=tokyonight&hide_border=true" alt="Estadísticas de ByronKinal" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ByronKinal&layout=compact&theme=tokyonight&hide_border=true" alt="Lenguajes más usados" width="48%" />
+  <img src="https://github-readme-stats-eight-xi.vercel.app/api?username=ByronKinal&show_icons=true&theme=tokyonight&hide_border=true" alt="Estadísticas de ByronKinal" width="48%" />
+  <img src="https://github-readme-stats-eight-xi.vercel.app/api/top-langs/?username=ByronKinal&layout=compact&theme=tokyonight&hide_border=true" alt="Lenguajes más usados" width="48%" />
 </p>
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=ByronKinal&theme=tokyonight&hide_border=true" alt="Racha de Commits" width="98%" />
 </p>
 
+
 ---
+
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=ByronKinal&label=Visitas%20al%20Perfil&color=6366F1&style=flat-square" alt="Visitas al Perfil" />
